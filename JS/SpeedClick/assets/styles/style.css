@@ -1,0 +1,30 @@
+/*****************************************************/
+/*                       Style                       */
+/*****************************************************/
+
+/*
+ * General
+ */
+
+/* Use to hide an element */
+.hidden {
+    display: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+/*
+ * Timer
+ */
+
+#timer {
+    text-align: center
+}
+
+#timer .time {
+    font-weight: bold;
+    color: blue;
+}

@@ -1,0 +1,59 @@
+#container{
+	margin: 5vh 0vh;
+	overflow: hidden;
+	z-index: 1;
+}
+
+#container .row {
+	display: flex;
+	margin: 0px;
+	min-width: 120vh;
+	justify-content: center;
+	height: 30vh;
+}
+
+#container .row li{
+	display: inline-block;
+	list-style: none;
+	padding: 0px;
+	margin: 5vh;
+	background-color: black;
+	height: 20vh;
+	width: auto;
+}
+
+#container .row li img{
+	height: 20vh;
+	width: auto;
+}
+
+#container .row li .name{
+	color: white;
+	position: relative;
+	text-align: center;
+	width: 20vh;
+	top: -15vh;
+	pointer-events: none;
+}
+
+#container .row li img:hover{
+	cursor: pointer;
+}
+
+#image {
+	position: fixed;
+	height: 500px;
+	width: auto;
+	z-index: 3;
+}
+
+#overlay {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: black;
+	opacity: 0.7;
+	height: 100%;
+	width: 100%;
+	z-index: 2;
+}

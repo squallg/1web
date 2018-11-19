@@ -1,0 +1,88 @@
+body {
+	margin: 0px;
+	font-family: "Verdana";
+	background-color: whitesmoke;
+}
+
+#mainNav {
+	height: 64px;
+	background-color: #2158DA;
+	color: white;
+	position: fixed;
+	width: 100%;
+}
+
+#mainNav h2 {
+	margin: 0px;
+	display: inline;
+	line-height: 64px;
+	padding-left: 20px;
+}
+
+#mainNav ul {
+	display: inline;
+	float: right;
+	margin: 0px;
+}
+
+#mainNav li {
+	display: inline;
+	list-style: none;
+	line-height: 64px;
+	padding: 0px 20px;
+}
+
+#mainNav li a {
+	color: white;
+	text-decoration: none;
+}
+
+#container {
+	padding-top: 64px;
+	height: 100vh;
+}
+
+aside {
+	width: 240px;
+	float: left;
+	background-color: #668CB7;
+	color: white;
+	height: 100%;
+	position: fixed;
+}
+
+aside h4 {
+	text-align: center;
+}
+
+aside img {
+	width: 200px;
+	height: auto;
+	margin: 0px 20px;
+	border: 2px solid grey;
+}
+
+aside hr {
+	margin: 20px;
+}
+
+aside #sideMenu {
+	padding: 0px;
+}
+
+aside #sideMenu li {
+	list-style: none;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+
+aside #sideMenu li a {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+#pageContent {
+	margin-left: 240px;
+	padding: 20px;
+}
